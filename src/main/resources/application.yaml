@@ -1,0 +1,6 @@
+ktor:
+    application:
+        modules:
+            - elegant.access.ktor.example.ApplicationKt.module
+    deployment:
+        port: 9148
